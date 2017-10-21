@@ -10,7 +10,7 @@ Mozilla is gradually dropping support for all legacy and SDK extensions in favor
 
 - Browse the [latest release](https://github.com/numirias/stylesheet-api-experiment/releases/latest) and download the `.xpi` extension file.
 
-- Install the extension into Firefox. Make sure you use either Firefox Developer or Nightly, **and** have extension signature checks disabled. (Go to `about:config` and set `xpinstall.signatures.required` to `false`.) That's necessary because this API needs to be implemented as a legacy extension and hence can't get signed by Mozilla.
+- Install the extension into Firefox. Make sure you use either Firefox Developer or Nightly, **and** have extension signature checks disabled **and** legacy extensions enabled. (Go to `about:config` and set `xpinstall.signatures.required` to `false`, and `extensions.legacy.enabled` to `true`) That's necessary because this API needs to be implemented as a legacy extension and hence can't get signed by Mozilla.
 
  You can also clone the repo and zip the extension yourself:
 
