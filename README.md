@@ -1,5 +1,7 @@
 # Stylesheet API Experiment
 
+**Note: Firefox now allows to include API experiments inside a webextension, so you most likely won't need to install this extension separately anymore.**
+
 This is a small [WebExtension](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) API experiment providing basic access to Mozilla's [StyleSheetService](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIStyleSheetService). It can be used by WebExtensions to apply CSS freely to any document, including the browser UI itself. The API was originally created to allow the [paxmod](https://github.com/numirias/paxmod) Firefox theme (it's cute, check it out!) to be built as a pure WebExtension.
 
 ## Background
